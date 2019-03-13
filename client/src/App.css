@@ -1,0 +1,98 @@
+.App-logo {
+  height: 60px;
+}
+.App-header {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 60px 1fr 100px;
+}
+.App-logo {
+  width: 45px;
+}
+
+.App .main-navigation {
+  padding: 5px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.App .main-navigation ul {
+  margin: 0;
+  padding-left: 0;
+}
+.App .main-navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+.App section {
+  margin-top: 10px !important;
+}
+
+.App button {
+  text-transform: uppercase;
+}
+
+.App .main-navigation .link-main-nav {
+  background-color: #fff;
+  color: #263238;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.App .main-navigation .link-main-nav.active {
+  background-color: #f00;
+  color: #fff;
+}
+
+.App .logged-in-user {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  padding: 5px;
+  height: 50px;
+  width: 55px;
+  overflow: hidden;
+  transition: 0.5s all;
+  background-color: #fff;
+}
+.App .logged-in-user .profile .picture {
+  border-radius: 50%;
+  width: 50px;
+}
+.App .logged-in-user .profile .name {
+  font-weight: normal;
+  max-height: 46px;
+  overflow: hidden;
+  margin: 0;
+}
+.App .logged-in-user:hover,
+.App .logged-in-user:active {
+  width: 100px;
+  height: 200px;
+  box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+.App .logged-in-user button.exit {
+  background-color: #f00;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #bd0000;
+}
+
+.App .logged-in-user button.exit:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}

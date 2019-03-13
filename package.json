@@ -1,0 +1,54 @@
+{
+  "name": "delivery-control-node-server-client-react",
+  "version": "1.0.0",
+  "description": "Delivery control",
+  "main": "index.js",
+  "scripts": {
+    "dev-install": "npm i nodemon -g && npm i && npm i --prefix client && npm i --prefix server",
+    "webpack-server-client-dev": "concurrently \"npm run server\" \"webpack --mode development && webpack-dev-server --host 0.0.0.0 --port 3000 --mode development --open --hot\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "client-server-install": "npm i --prefix client && npm i --prefix server",
+    "client-install": "npm i --prefix client",
+    "server-install": "npm i --prefix server",
+    "client": "npm start --prefix client",
+    "server": "nodemon index.js --prefix server",
+    "server-start": "npm start --prefix server",
+    "webpack-build": "webpack --mode production",
+    "webpack-build-dev": "webpack --mode development",
+    "webpack-server-client": "concurrently \"npm run server\" \"webpack --mode production && webpack-dev-server --mode production --open --hot\"",
+    "webpack-server-client-dev-2": "concurrently \"npm run server\" \"webpack --mode development && webpack-dev-server --mode development --open --hot\"",
+    "audit-fix": "npm audit fix && npm audit fix --prefix client && npm audit fix --prefix server"
+  },
+  "author": "Jonimar Marques Policarpo <treedbox@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^7.1.5",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge.0"
+  }
+}

@@ -1,0 +1,69 @@
+.users {
+  background-color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.users h2 {
+  text-align: center;
+  color: #f00;
+}
+
+.users .profile {
+  display: grid;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "picture picture"
+    "name name"
+    "email email"
+    "addresses addresses";
+}
+.users .profile h3 {
+  text-align: center;
+}
+.users .profile .picture {
+  grid-area: picture;
+  margin: auto;
+}
+.users .select-role {
+  background-color: #fd0;
+}
+.users .profile .name {
+  grid-area: name;
+}
+.users .profile .email {
+  grid-area: email;
+  text-align: center;
+  align-content: center;
+}
+.users .profile .addresses {
+  grid-area: addresses;
+}
+.users .profile .addresses .addresses-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.users .profile .addresses .addresses-list .address {
+  margin: 10px;
+}
+
+.select.biker {
+  background-color: #f00;
+}
+
+@media screen and (min-width: 450px) {
+  .users .profile {
+    grid-template-areas:
+      "picture name"
+      "picture email"
+      "addresses addresses";
+  }
+  .users .profile .addresses .addresses-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

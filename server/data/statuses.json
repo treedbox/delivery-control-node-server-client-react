@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "waiting",
+    "description": "Not assigned to any biker.",
+    "name": "Waiting"
+  },
+  {
+    "id": 2,
+    "type": "assigned",
+    "description": "Assigned but not picked up.",
+    "name": "Assigned"
+  },
+  {
+    "id": 3,
+    "type": "picked_up",
+    "description": "Picked but not delivered",
+    "name": "Picked up"
+  },
+  {
+    "id": 4,
+    "type": "delivered",
+    "description": "This shipments was delivered",
+    "name": "Delivered"
+  }
+]

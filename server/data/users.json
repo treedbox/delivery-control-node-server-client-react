@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Clementine Bauch",
+    "username": "admin",
+    "email": "clementine@gmail.com",
+    "password": "admin",
+    "role": "manager",
+    "picture": "image-1.png",
+    "token": ""
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "biker",
+    "email": "ervin@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-2.png",
+    "token": ""
+  },
+  {
+    "id": 3,
+    "name": "Patricia Lebsack",
+    "username": "patricia",
+    "email": "patricia@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-3.png",
+    "token": ""
+  },
+  {
+    "id": 4,
+    "name": "Dennis Schulist",
+    "username": "dennis",
+    "email": "dennis@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-4.png",
+    "token": ""
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "chelsey",
+    "email": "chelsey@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-5.png",
+    "token": ""
+  },
+  {
+    "id": 6,
+    "name": "Kurt Wagner",
+    "username": "kurt",
+    "email": "kurt@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-6.png",
+    "token": ""
+  },
+  {
+    "id": 7,
+    "name": "Marcel C Weiß",
+    "username": "marcel",
+    "email": "marcelcw@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-7.png",
+    "token": ""
+  },
+  {
+    "id": 8,
+    "name": "Karin W Fenstermacher",
+    "username": "karin",
+    "email": "karin.fenstermacher@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-8.png",
+    "token": ""
+  },
+  {
+    "id": 9,
+    "name": "Luca J Nagel",
+    "username": "luca",
+    "email": "luca.nagel@gmail.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-9.png",
+    "token": ""
+  },
+  {
+    "id": 10,
+    "name": "Cloud Strife",
+    "username": "cloud",
+    "email": "cloud.strife@avalanche.com",
+    "password": "biker",
+    "role": "biker",
+    "picture": "image-10.png",
+    "token": ""
+  }
+]

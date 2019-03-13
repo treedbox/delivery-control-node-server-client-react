@@ -1,0 +1,118 @@
+.shipment {
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  grid-template-areas:
+    "number"
+    "status"
+    "client"
+    "address"
+    "timeline";
+}
+
+.shipment .client {
+  background-color: #fff;
+}
+.shipment .client-address {
+  background-color: #fff;
+}
+
+.shipment .button_status {
+  background-color: #f00;
+  color: #fff;
+  border: 0;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  outline-color: transparent;
+  transition: all 0.1s;
+  max-width: 200px;
+  text-transform: uppercase;
+}
+
+.shipment .button_status.waiting {
+  background-color: #3f51b5;
+  box-shadow: 0 3px 0 #1a237e;
+}
+.shipment .button_status.assigned {
+  background-color: #f44336;
+  box-shadow: 0 3px 0 #b71c1c;
+}
+.shipment .button_status.picked_up {
+  background-color: #ffc107;
+  color: #263238;
+  box-shadow: 0 3px 0 #c19100;
+}
+.shipment .button_status.delivered {
+  background-color: #4caf50;
+  /* box-shadow: 0 3px 0 #1b5e20; */
+  box-shadow: none;
+  cursor: auto;
+}
+.shipment .button_status:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.shipment details {
+  padding: 10px;
+}
+.shipment details summary {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.shipment .shipment-status .user.allow_click {
+  cursor: pointer;
+}
+
+.shipment .shipment-status .user .profile {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  grid-template-areas: "user_name user_picture";
+  margin: 5px;
+  border-radius: 5px;
+  transition: 0.3s all;
+}
+.shipment .shipment-status .user.allow_click .profile:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.shipment .shipment-status .user .profile .picture {
+  grid-area: user_picture;
+  width: 40px;
+  background-color: #eee;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.shipment .shipment-status .user .profile h3 {
+  grid-area: user_name;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.shipment h3 {
+  grid-area: number;
+}
+.shipment .timeline {
+  grid-area: timeline;
+  padding: 0;
+  background-color: #fff;
+}
+.shipment .timeline summary {
+  background-color: #eee;
+}
+
+@media screen and (min-width: 450px) {
+  .shipment {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "number status"
+      "client address"
+      "timeline timeline";
+  }
+}

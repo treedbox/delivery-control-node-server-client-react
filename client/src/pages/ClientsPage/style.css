@@ -1,0 +1,63 @@
+.clients {
+  background-color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.clients h2 {
+  text-align: center;
+  color: #f00;
+}
+
+.clients .profile {
+  display: grid;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "picture picture"
+    "name name"
+    "email email"
+    "addresses addresses";
+}
+.clients .profile h3 {
+  text-align: center;
+}
+.clients .profile .picture {
+  grid-area: picture;
+  border-radius: 50%;
+  margin: auto;
+}
+.clients .profile .name {
+  grid-area: name;
+}
+.clients .profile .email {
+  grid-area: email;
+  text-align: center;
+  align-content: center;
+}
+.clients .profile .addresses {
+  grid-area: addresses;
+}
+.clients .profile .addresses .addresses-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.clients .profile .addresses .addresses-list .address {
+  margin: 10px;
+}
+
+@media screen and (min-width: 450px) {
+  .clients .profile {
+    grid-template-areas:
+      "picture name"
+      "picture email"
+      "addresses addresses";
+  }
+  .clients .profile .addresses .addresses-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

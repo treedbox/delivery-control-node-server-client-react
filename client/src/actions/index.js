@@ -1,0 +1,22 @@
+export const FETCH_CLIENTS = "FETCH_CLIENTS";
+export const FETCH_CLIENT = "FETCH_CLIENT";
+export const NEW_CLIENT = "NEW_CLIENT";
+export const UPDATE_CLIENTS = "UPDATE_CLIENTS";
+
+export const FETCH_SHIPMENTS = "FETCH_SHIPMENTS";
+export const FETCH_SHIPMENT = "FETCH_SHIPMENT";
+export const NEW_SHIPMENT = "NEW_SHIPMENT";
+export const UPDATE_SHIPMENTS = "UPDATE_SHIPMENTS";
+
+export const FETCH_STATUSES = "FETCH_STATUSES";
+export const FETCH_STATUS = "FETCH_STATUS";
+export const NEW_STATUS = "NEW_STATUS";
+export const UPDATE_STATUSES = "UPDATE_STATUS";
+
+export const FETCH_USERS = "FETCH_USERS";
+export const FETCH_USER = "FETCH_USER";
+export const NEW_USER = "NEW_USER";
+export const UPDATE_USERS = "UPDATE_USERS";
+
+export const FETCH_LOGIN = "FETCH_LOGIN";
+export const REMOVE_LOGIN = "REMOVE_LOGIN";
