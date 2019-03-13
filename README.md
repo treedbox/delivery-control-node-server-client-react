@@ -93,7 +93,29 @@ Development environment:
 
 ## Workflow
 
-![Delivery control Workflow](assets/treedbox-delivery-control-workflow.png)
+![Login](assets/treedbox-delivery-control-workflow.png)
+
+## Screenshots
+
+Login:
+
+![Login](assets/treedbox-delivery-control-login.png)
+
+Admin:
+
+![Admin](assets/treedbox-delivery-control-admin.png)
+
+Bikers list:
+
+![Bikers list](assets/treedbox-delivery-control-bikers-list.png)
+
+Biker (Delivery girl):
+
+![Biker (Delivery girl)](assets/treedbox-delivery-control-biker.png)
+
+Shipment Delivered:
+
+![Shipment Delivered](assets/treedbox-delivery-control-delivered.png)
 
 ## Tested on
 
