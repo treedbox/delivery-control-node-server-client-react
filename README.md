@@ -1,4 +1,4 @@
-# Delivery control
+# Delivery control: Delivery management system, Node.js server, React client.
 
 ![Icon](assets/delivery-control.png)
 
