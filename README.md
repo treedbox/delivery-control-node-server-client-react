@@ -2,11 +2,12 @@
 
 ![Icon](assets/delivery-control.png)
 
-> Delivery management system, Node.js server, React client.
+> Delivery management system, Node.js server, React client, JSON data, no persist data.
 
 ## Description
 
 Delivery management system to assign and control the delivery of shipments.
+Using Node.js as server, React as client, JSON as data (no persist data). Responsive design (without Bootstrap).
 
 ## Dependencies
 
